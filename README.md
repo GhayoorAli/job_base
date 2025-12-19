@@ -19,6 +19,7 @@ A comprehensive WordPress-based job board platform that enables employers to pos
 **Location**: `wp-content/plugins/jobscout-registration/`
 
 **Features**:
+
 - Custom user registration form
 - User type selection (Employer/Employee)
 - Password validation (minimum 8 characters)
@@ -27,6 +28,7 @@ A comprehensive WordPress-based job board platform that enables employers to pos
 - Database schema modifications
 
 **Main Class**: `Registration`
+
 - `registrationForm()`: Displays the registration form
 - `processRegistrationForm()`: Handles form submission and user creation
 
@@ -35,12 +37,14 @@ A comprehensive WordPress-based job board platform that enables employers to pos
 **Location**: `wp-content/themes/jobscout-child/`
 
 **Features**:
+
 - Inherits styles from parent JobScout theme
 - Custom page templates for Registration and Profile
 - Login redirect functionality
 - Custom styling support
 
 **Page Templates**:
+
 - `registration-page.php`: Registration page template
 - `page-templates/profile-page.php`: User profile page template
 
@@ -68,9 +72,3 @@ A comprehensive WordPress-based job board platform that enables employers to pos
 - Manage users through WordPress admin panel
 - View user types in the database
 - Customize registration and profile pages through page templates
-
-**Ghayoor Ali**
-
-- Plugin Author: Ghayoor Ali
-- For support, please contact the development team
-
